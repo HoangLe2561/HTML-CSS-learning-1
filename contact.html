@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h1 id="nameshop">HLPET</h1>
+        <form id="search">
+            <input type="text" placeholder="Search..">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <div id="account">
+            <button type="submit" class="account">Sign Up</button>
+            <button type="submit" class="account">Login</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./dog.html">Dog</a></li>
+                <li><a href="./cat.html">Cat</a></li>
+                <li><a href="./fish.html">Fish</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="form">
+            <form>
+                <fieldset class="contactinfo">
+                    <h2>Feedback</h2>
+                        <label for="nameinput">
+                            <p>Name</p>
+                            <input type="text" name="name" id="nameinput" required="">
+                        </label>
+                        <br>
+                        <label for="emailinput">
+                            <p>Email</p>
+                            <input type="email" name="email" id="emailinput" required="">
+                        </label>
+                        <br>
+                        <label for="phoneinput">
+                            <p>Phone</p>
+                            <input type="tel" name="phone" id="phoneinput" required="">
+                        </label>
+                </fieldset>
+
+                <fieldset class="comments">
+                        <label for="feedback">
+                            Feedback, special requests, or other information
+                            <textarea name="feedback" id="feedback" rows="4" cols="31"></textarea>
+                        </label>
+                </fieldset>
+
+                <fieldset class="submit">
+                    <input type="submit" id="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Michigan, United States</p>
+        <p>+1 (616) 456-7890</p>
+        <p>hlpetshop@gmail.com</p>
+    </footer>
+</body>
+</html>

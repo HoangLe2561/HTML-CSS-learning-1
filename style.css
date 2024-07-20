@@ -1,0 +1,173 @@
+html{
+    font-size: 20px;
+    background-color: #f5f5f5;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+html, body, header, main, footer, div, footer, section, ul, li, p, h1, form, button, input, fieldset, h3{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* Header */
+header{
+    width: 100vw;
+    padding: 10px 0px;
+}
+h1{
+    float: left;
+    margin: 15px 30px;
+}
+#nameshop{
+    color: #cf9037;
+}
+/* search bar */
+#search{
+    margin: 15px auto;
+    max-width: 400px;
+}
+#search input[type=text]{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+}
+#search button{
+    float: left;
+    width: 15%;
+    padding: 10px;
+    background: lightgray;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+#account{
+    margin-left: 18%;
+    float: left;
+}
+.account{
+    display: inline-block;
+    font-size: 17px;
+    margin: auto 15px;
+    border: black 1px solid;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+/* nav */
+ul{
+    width: auto;
+    background-color: #cc9965;
+    text-align: center;
+    clear: both;
+}
+li{
+    display: inline-block;
+    padding: 15px 50px;
+    font-size: 25px;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+/* Main */
+main{
+    clear: both;
+    text-align: center;
+    max-width: 80vw;
+    min-height: calc(100vh - 154.5px - 60px);
+    height: auto;
+    margin: 0 auto;
+}
+.new-products section{
+    width: 380px;
+    float: left;
+}
+.new-products section img{
+    width: 200px;
+    height: 300px;
+    padding: 30px 35px;
+}
+.new-products section p{
+    padding: 10px 35px;
+}
+/* dog, cat, fish */
+.products section{
+    width: 280px;
+    float: left;
+}
+.products section img{
+    width: 200px;
+    height: 300px;
+    padding: 10px 35px;
+}
+.products section h3{
+    padding: 0px 20px;
+    min-height: 150px;
+}
+.products section p{
+    padding: 0px 35px;
+    color: red;
+    margin-bottom: 30px;
+}
+/* contact */
+#form{
+    max-width: 50%;
+    min-height: 200px;
+    margin: 50px auto 150px auto;
+    text-align: left;
+}
+.contactinfo input{
+    min-width: 100%;
+    height: 40px;
+}
+.contactinfo p{
+    margin: 10px 10px;
+}
+.contactinfo, .comments{
+    margin-bottom: 15px;
+}
+.contactinfo h2{
+    text-align: center;
+}
+#feedback{
+    height: 100px;
+    min-width: 100%;
+    margin-top: 10px;
+}
+.submit{
+    display: block;
+    text-align: center;
+}
+.submit input{
+    border: 1px black solid;
+    padding: 5px;
+    font-size: 18px;
+    background-color: lightgray;
+}
+#about img{
+    vertical-align: middle;
+    max-width: 40px;
+    max-height: 40px;
+    float: left;
+}
+/* Footer */
+footer{
+    clear: both;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #cf9037;
+}
+footer p{
+    float: left;
+    padding: 0 150px;
+}
